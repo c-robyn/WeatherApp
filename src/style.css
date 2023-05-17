@@ -1,0 +1,101 @@
+body {
+  margin: 15px;
+  color: #302626;
+}
+
+h1 {
+  font-family: "Manrope", sans-serif;
+  font-size: 34px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+hr {
+  margin-left: 0px;
+  width: 100%;
+  size: 12px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+.btn {
+  margin-top: 30px;
+  background-color: orange;
+  color: #302626;
+  margin-bottom: 10px;
+}
+
+#search-button {
+  width: auto;
+}
+
+.btn:hover {
+  background-color: #59b4c9;
+}
+
+p {
+  font-size: 20px;
+}
+
+form {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+ul {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+}
+
+ul li {
+  list-style: none;
+}
+ul li:before {
+  content: "🌦️";
+}
+li:nth-child(2)::before {
+  content: "⛅ ";
+}
+li:nth-child(3)::before {
+  content: "⛈️ ";
+}
+
+li:nth-child(4)::before {
+  content: "☀️ ";
+}
+li:nth-child(5)::before {
+  content: "🌦️ ";
+}
+.day {
+  font-weight: bold;
+}
+.day-list {
+  padding: 0;
+  margin: 0;
+}
+.high-low {
+  margin-left: 50px;
+}
+
+.app {
+  background: rgb(221, 225, 190);
+  background: radial-gradient(
+    circle,
+    rgba(221, 225, 190, 1) 0%,
+    rgba(222, 211, 90, 1) 100%
+  );
+  border: 3px solid #302626;
+  max-width: 600px;
+  padding: 50px;
+  border-radius: 30px;
+}
