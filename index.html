@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+      <div class="container">
+          <div class="app">
+          <div class="row">
+            <div class="col">
+               <p id="date"></p>
+                    <h1><span id="temperature"></span>°<span class="units">C</span></h1>
+                    <h2 id="city"></h2>
+             <img src="src/images/sun_cloudy.png" alt="" />
+                    <hr />
+                  
+                    <ul>
+                      <li id="description"></li>
+                      <li>High of 8°C</li>
+                      <li>Low of 2°C</li>
+                      <li>Humidity:<span id="humidity"></span>%</li>
+                      <li>Windspeed: <span id="wind"></span> km</li>
+                    </ul>
+            </div>
+            <div class="col">
+                <form class="search-form" id="search-form">
+                    <input
+                      type="search"
+                      placeholder="Find your city"
+                      autofocus="on"
+                      autocomplete="off"
+                      id="city-input"
+                    />
+                    <input id="search-button"
+                      type="submit"
+                      value="Search"
+                      class="form-control btn btn-primary shadow-sm"
+                    />
+                  </form>
+       
+        <button
+                      class="btn btn-success w-80"
+                      id="current-location-button"
+                    >
+                      Current City
+                    </button>
+                    <ul class="day-list">
+                          <li>
+                            <span class="day"> 7° Monday </span>
+                            <br />
+                            <div class="high-low">7°/2°</div>
+                          </li>
+                          <br />
+                          <li>
+                            <span class="day"> 9° Tuesday </span> <br />
+            
+                            <div class="high-low">9°/2°</div>
+                          </li>
+                          <br />
+                          <li>
+                            <span class="day"> 8° Wednesday </span> <br />
+            
+                            <div class="high-low">8°/3°</div>
+                          </li>
+                          <br />
+                          <li>
+                            <span class="day"> 9° Thursday </span> <br />
+                            <div class="high-low">9°/6°</div>
+                          </li>
+                          <br />
+                          <li>
+                            <span class="day"> 11° Friday </span> <br />
+            
+                            <div class="high-low">11°/7°</div>
+                          </li>
+                        </ul>
+            </div>
+          </div>
+        </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
