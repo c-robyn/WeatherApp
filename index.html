@@ -20,83 +20,83 @@
   </head>
 
   <body>
-      <div class="container">
-          <div class="app">
-          <div class="row">
-            <div class="col">
-               <p id="date"></p>
-                    <h1><span id="temperature"></span>°<span class="units">C</span></h1>
-                    <h2 id="city"></h2>
-             <img src="src/sun_cloudy.png" alt="" />
-                    <hr />
-                  
-                    <ul>
-                      <li id="description"></li>
-                      <li>High of 8°C</li>
-                      <li>Low of 2°C</li>
-                      <li>Humidity:<span id="humidity"></span>%</li>
-                      <li>Windspeed: <span id="wind"></span> km</li>
-                    </ul>
-            </div>
-            <div class="col">
-                <form class="search-form" id="search-form">
-                    <input
-                      type="search"
-                      placeholder="Find your city"
-                      autofocus="on"
-                      autocomplete="off"
-                      id="city-input"
-                    />
-                    <input id="search-button"
-                      type="submit"
-                      value="Search"
-                      class="form-control btn btn-primary shadow-sm"
-                    />
-                  </form>
-       
-        <button
-                      class="btn btn-success w-80"
-                      id="current-location-button"
-                    >
-                      Current City
-                    </button>
-                    <ul class="day-list">
-                          <li>
-                            <span class="day"> 7° Monday </span>
-                            <br />
-                            <div class="high-low">7°/2°</div>
-                          </li>
-                          <br />
-                          <li>
-                            <span class="day"> 9° Tuesday </span> <br />
-            
-                            <div class="high-low">9°/2°</div>
-                          </li>
-                          <br />
-                          <li>
-                            <span class="day"> 8° Wednesday </span> <br />
-            
-                            <div class="high-low">8°/3°</div>
-                          </li>
-                          <br />
-                          <li>
-                            <span class="day"> 9° Thursday </span> <br />
-                            <div class="high-low">9°/6°</div>
-                          </li>
-                          <br />
-                          <li>
-                            <span class="day"> 11° Friday </span> <br />
-            
-                            <div class="high-low">11°/7°</div>
-                          </li>
-                        </ul>
-            </div>
+    <div class="container">
+      <div class="app">
+        <div class="row">
+          <div class="col">
+            <p id="date"></p>
+            <h1><span id="temperature"></span>°<span class="units">C</span></h1>
+            <h2 id="city"></h2>
+            <img src="src/sun_cloudy.png" alt="" />
+            <hr />
+
+            <ul>
+              <li id="description"></li>
+              <li>High of 8°C</li>
+              <li>Low of 2°C</li>
+              <li>Humidity:<span id="humidity"></span>%</li>
+              <li>Windspeed: <span id="wind"></span> km</li>
+            </ul>
+          </div>
+          <div class="col">
+            <form class="search-form" id="search-form">
+              <input
+                type="search"
+                placeholder="Find your city"
+                autofocus="on"
+                autocomplete="off"
+                id="city-input"
+              />
+              <input
+                id="search-button"
+                type="submit"
+                value="Search"
+                class="form-control btn btn-primary shadow-sm"
+              />
+            </form>
+
+            <button class="btn btn-success w-80" id="current-location-button">
+              Current City
+            </button>
+            <ul class="day-list">
+              <li>
+                <span class="day"> 7° Monday </span>
+                <br />
+                <div class="high-low">7°/2°</div>
+              </li>
+              <br />
+              <li>
+                <span class="day"> 9° Tuesday </span> <br />
+
+                <div class="high-low">9°/2°</div>
+              </li>
+              <br />
+              <li>
+                <span class="day"> 8° Wednesday </span> <br />
+
+                <div class="high-low">8°/3°</div>
+              </li>
+              <br />
+              <li>
+                <span class="day"> 9° Thursday </span> <br />
+                <div class="high-low">9°/6°</div>
+              </li>
+              <br />
+              <li>
+                <span class="day"> 11° Friday </span> <br />
+
+                <div class="high-low">11°/7°</div>
+              </li>
+            </ul>
           </div>
         </div>
-
-        <p><a href="https://github.com/c-robyn/WeatherApp">Open-sourced code</a> by Robyn Cook. Hosted by <a href="https://www.netlify.com/">Netlify</a>. </p>
+      </div>
+    </div>
+    <p>
+      <a href="https://github.com/c-robyn/WeatherApp">Open-sourced code</a> by
+      Robyn Cook. Hosted by <a href="https://www.netlify.com/">Netlify</a>.
+    </p>
 
     <script src="src/index.js"></script>
-
   </body>
 </html>
