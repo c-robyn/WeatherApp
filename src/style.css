@@ -23,6 +23,7 @@ hr {
 
 img {
   display: block;
+  size: 70px;
   margin: auto;
   max-width: 100%;
 }
