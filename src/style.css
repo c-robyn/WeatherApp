@@ -57,8 +57,11 @@ ul {
   font-size: 18px;
 }
 
-ul li {
+li:first-letter {
   text-transform: capitalize;
+}
+
+ul li {
   list-style: none;
 }
 ul li:before {
