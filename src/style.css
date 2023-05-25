@@ -43,7 +43,7 @@ img {
 }
 
 p {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 form {
@@ -58,6 +58,7 @@ ul {
 }
 
 ul li {
+  text-transform: capitalize;
   list-style: none;
 }
 ul li:before {

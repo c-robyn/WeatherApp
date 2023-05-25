@@ -29,13 +29,16 @@ function displayWeatherCondition(response) {
   document.querySelector("#temperature").innerHTML = Math.round(
     response.data.main.temp
   );
+  document.querySelector("#description").innerHTML =
+    response.data.weather[0].main;
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#wind").innerHTML = Math.round(
     response.data.wind.speed
   );
-  document.querySelector("#description").innerHTML =
-    response.data.weather[0].main;
 }
+
+humidityElement.innerHTML = response.data.main.humidity;
+windElement.innerHTML = Math.round(response.data.wind.speed * 3.6);
 
 function search(event) {
   event.preventDefault();
