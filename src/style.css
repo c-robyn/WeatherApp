@@ -21,9 +21,9 @@ hr {
   size: 12px;
 }
 
-img {
+#icon {
   display: block;
-  size: 70px;
+  width: 150px;
   margin: auto;
   max-width: 100%;
 }
@@ -33,6 +33,8 @@ img {
   background-color: orange;
   color: #302626;
   margin-bottom: 10px;
+  border-color: #59b4c9;
+  max-width: 200px;
 }
 
 #search-button {
@@ -45,6 +47,7 @@ img {
 
 p {
   font-size: 16px;
+  text-align: center;
 }
 
 form {
