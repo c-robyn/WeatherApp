@@ -1,3 +1,6 @@
+
+//homework incomplete due to weekend emergency. finishing on monday night!
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -25,7 +28,7 @@
         <div class="row">
           <div class="col">
             <p id="date"></p>
-            <h1><span id="temperature"></span>°<span class="units">C</span></h1>
+            <h1><span id="temperature"></span><span class="units">°C / <a href="#" id="fahrenheit-link">°F</a></span></h1>
             <h2 id="city"></h2>
             <img
               src="https://openweathermap.org/img/wn/10d@2x.png"
@@ -51,17 +54,23 @@
                 autocomplete="off"
                 id="city-input"
               />
-              <input
-                id="search-button"
-                type="submit"
-                value="Search"
-                class="form-control btn btn-primary shadow-sm"
-              />
-            </form>
-
-            <button class="btn btn-success w-80" id="current-location-button">
-              Current City
-            </button>
+<div class="row">
+              <div class="col-6">
+                <input
+                  id="search-button"
+                  type="submit"
+                  value="Search"
+                  class="form-control btn btn-primary shadow-sm"
+                />
+              
+              </div>
+            
+            <div class="col-6">
+              <button class="btn btn-success w-100" id="current-location-button">
+                Current City
+              </button>
+              </div>
+            </div>
             <ul class="day-list">
               <li>
                 <span class="day"> 7° Monday </span>
