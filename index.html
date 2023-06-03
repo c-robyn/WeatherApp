@@ -1,6 +1,3 @@
-
-//homework incomplete due to weekend emergency. finishing on monday night!
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -28,13 +25,9 @@
         <div class="row">
           <div class="col">
             <p id="date"></p>
-            <h1><span id="temperature"></span><span class="units">°C / <a href="#" id="fahrenheit-link">°F</a></span></h1>
+            <h1><strong id="temperature"></strong><span class="units"><a href="#" id="celsius-link" class="active">°C</a> / <a href="#" id="fahrenheit-link">°F</a></span></h1>
             <h2 id="city"></h2>
-            <img
-              src="https://openweathermap.org/img/wn/10d@2x.png"
-              alt=""
-              id="icon"
-            />
+            <img src="" alt="Clear" id="icon" />
             <hr />
 
             <ul>
@@ -45,6 +38,8 @@
               <li>Windspeed: <span id="wind"></span> km</li>
             </ul>
           </div>
+                </div>
+
           <div class="col">
             <form class="search-form" id="search-form">
               <input
@@ -64,7 +59,7 @@
                 />
               
               </div>
-            
+
             <div class="col-6">
               <button class="btn btn-success w-100" id="current-location-button">
                 Current City
@@ -101,8 +96,8 @@
                 <div class="high-low">11°/7°</div>
               </li>
             </ul>
-          </div>
-        </div>
+               </div>
+     </div>
       </div>
     </div>
     <p>
