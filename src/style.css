@@ -69,10 +69,6 @@ li:first-letter {
   text-transform: capitalize;
 }
 
-#date {
-  margin-left: 0;
-}
-
 .day {
   font-weight: bold;
 }
