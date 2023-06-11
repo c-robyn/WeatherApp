@@ -60,10 +60,17 @@ ul {
   font-family: "Manrope", sans-serif;
   font-size: 18px;
   list-style: none;
+  margin-top: 30px;
+  max-width: 100%;
+  margin-left: 50px;
 }
 
 li:first-letter {
   text-transform: capitalize;
+}
+
+#date {
+  margin-left: 0;
 }
 
 .day {
