@@ -59,6 +59,7 @@ form {
 ul {
   font-family: "Manrope", sans-serif;
   font-size: 18px;
+  list-style: none;
 }
 
 li:first-letter {
