@@ -23,24 +23,13 @@
     <div class="container">
       <div class="app">
         <div class="row">
-          <div class="col">
+          <div class="col-6">
             <p id="date"></p>
             <h1><strong id="temperature"></strong><span class="units"><a href="#" id="celsius-link" class="active">°C</a> / <a href="#" id="fahrenheit-link">°F</a></span></h1>
             <h2 id="city"></h2>
-            <img src="#" alt="#" id="icon" class="icon" />
-            <hr />
-
-            <ul>
-              <li id="description"></li>
-              <li>High of 8°C</li>
-              <li>Low of 2°C</li>
-              <li>Humidity:<span id="humidity"></span>%</li>
-              <li>Windspeed: <span id="wind"></span> km</li>
-            </ul>
-          </div>
-                </div>
-
-          <div class="col">
+           
+          
+    <div class="col-6">
             <form class="search-form" id="search-form">
               <input
                 type="search"
@@ -49,7 +38,7 @@
                 autocomplete="off"
                 id="city-input"
               />
-<div class="row">
+
               <div class="col-6">
                 <input
                   id="search-button"
@@ -63,14 +52,21 @@
             <div class="col-6">
               <button class="btn btn-success w-100" id="current-location-button">
                 Current City
-              </button>      <div class="weather-forecast" id="weather-forecast">
                 <div class="row">
-                  <div class="weather-forecast-date">Thu</div>
-                  <img src=""https://openweathermap.org/img/wn/04d@2x.png">
-<div class="weather-forecast-temp">
-  <span class="weather-forecast-temp-max">16</span>
-  <span class="weather-forecast-temp-min">12</span>
-</div>
+              </button>
+ <img src="#" alt="#" id="icon" class="icon" />
+            <ul>
+              <li id="description"></li>
+              <li>Humidity:<span id="humidity"></span>%</li>
+              <li>Windspeed: <span id="wind"></span> km</li>
+            </ul>
+          </div>
+                </div>
+
+           </div>
+              
+                   <div class="weather-forecast" id="forecast">
+      </div>
                 
       </div>
       </div>
